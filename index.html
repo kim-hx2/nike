@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>나이키. Just Do it. Nike.com</title>
+  <!-- xeicon cdn(백터 그래픽 아이콘 툴킷) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+  <link rel="stylesheet" href="css/Lato-font.css"> <!-- lato 폰트 -->
+  <link rel="stylesheet" href="css/SpoqaHanSans-kr.css"> <!-- 스포카한산스 폰트 -->
+  <link rel="shortcut icon" href="images/favicon.png"> <!-- 타이틀에 파비콘 넣기 -->
+  <!-- swiper css cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.css
+  ">
+  <!-- 스타일가이드 (공통 모듈 CSS) -->
+  <link rel="stylesheet" href="css/styleGuide.css">
+  <!-- 인덱스 기본 스타일 -->
+  <link rel="stylesheet" href="css/indexStyle.css">
+  <!-- 태블릿용 인덱스 스타일 -->
+  <link rel="stylesheet" href="css/indexTablet.css">
+  <!-- 모바일용 인덱스 스타일 -->
+  <link rel="stylesheet" href="css/indexMobile.css">
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <!-- swiper 플러그인 cdn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js
+  "></script>
+  <script src="js/index.js"></script>
+</head>
+<body>
+  <!-- 메뉴 영역 시작 -->
+  <div class="menu-area">
+    <div class="h-top">
+      <div class="jordan-logo"> <!-- 메뉴 최상단 검정 부분(pc에서만 보임), 모바일,태블릿에서는 메뉴 누르면 나오게  -->
+        <a href="#">
+          <img src="images/AIR-JORDAN-LOGO.svg" alt="에어조던로고"><!-- pc에서 검정 배경일 때 흰 로고 -->
+          <span>Jordan</span><!-- 데스크탑에서는 감추고 모바일, 태블릿일대는 로고 옆에 보이도록 -->
+        </a>
+      </div> <!-- //h-top 로고 -->
+      <div class="top-menu-area">
+        <h4 class="top-menu-title">나이키 멤버만을 위한 특별한 혜택을 알아보세요</h4> <!-- 모바일,태블릿에서 나오는 글 -->
+        <ul class="top-menu">
+          <li><a href="#">고객센터</a></li>
+          <li><a href="#">멤버가입</a></li>
+          <li><a href="#">로그인</a></li>
+        </ul>
+      </div> <!-- //top-menu-title -->
+      <ul class="customer">
+        <li><a href="#"><img src="images/shopping-bag.svg" alt="장바구니">장바구니</a></li> 
+        <li><a href="#"><img src="images/truck.svg" alt="주문배송">주문배송</a></li>
+        <li><a href="#"><img src="images/help-circle.svg" alt="고객센터">고객센터</a></li>
+        <!-- 모바일,태블릿에서만 글자가 보임, pc에서는 이미지만 -->
+      </ul> <!-- //customer -->
+    </div>
+  </div>
+  <!-- //메뉴 영역 -->
+
+  <!-- 메인 영역 시작 -->
+  <div class="index-wrap">
+    <header>
+      <h1 class="logo">
+        <a href="index.html"><img src="images/NIKE-LOGO.svg" alt="나이키로고"></a>
+      </h1>
+      <nav>
+        <ul class="main-menu">
+          <li> <!-- 주메뉴1 New Realease -->
+            <a href="#">New Release</a>
+            <ul class="sub-menu">
+              <li class="all"><a href="#"><i class="xi-angle-left"></i>ALL</a></li>
+                <!-- xi-angle-left => 화살표 이모티콘(xeicon cdn) -->
+              <li><a href="#">New/Featured</a></li>
+              <li><a href="#">New for Man</a></li>
+              <li><a href="#">New for Women</a></li>
+              <li><a href="#">New for Kids</a></li>
+            </ul>
+          </li>
+          <li> <!-- 주메뉴2 Men -->
+            <a href="#">Men</a>
+            <ul class="sub-menu">
+              <li class="all"><a href="#"><i class="xi-angle-left"></i>ALL</a></li>
+              <li><a href="#">New/Featured</a></li>
+              <li><a href="#">신발</a></li>
+              <li><a href="#">의류</a></li>
+              <li><a href="#">스포츠</a></li>
+              <li><a href="#">브랜드</a></li>
+            </ul>
+          </li>
+          <li><!-- 주메뉴3 Woman -->
+            <a href="#">Woman</a>
+            <ul class="sub-menu">
+              <li class="all"><a href="#"><i class="xi-angle-left"></i>ALL</a></li>
+              <li><a href="#">New/Featured</a></li>
+              <li><a href="#">신발</a></li>
+              <li><a href="#">의류</a></li>
+              <li><a href="#">스포츠</a></li>
+              <li><a href="#">브랜드</a></li>
+              <li><a href="#">용품</a></li>
+            </ul>
+          </li>
+          <li><!-- 주메뉴4 Kids -->
+            <a href="#">Kids</a>
+            <ul class="sub-menu">
+              <li class="all"><a href="#"><i class="xi-angle-left"></i>ALL</a></li>
+              <li><a href="#">New/Featured</a></li>
+              <li><a href="#">신발</a></li>
+              <li><a href="#">의류</a></li>
+              <li><a href="#">스포츠</a></li>
+            </ul>
+          </li>
+          <li><!-- 주메뉴5 Sale -->
+            <a href="#">Sale</a>
+            <ul class="sub-menu">
+              <li class="all"><a href="#"><i class="xi-angle-left"></i>ALL</a></li>
+              <li><a href="#">New to Sale</a></li>
+              <li><a href="#">Mens Sale</a></li>
+              <li><a href="#">Womens Sale</a></li>
+              <li><a href="#">Kids Sale</a></li>
+            </ul>
+          </li>
+
+          <!-- 데스크탑에서는 숨기고, 모바일, 태블릿에서는 보임 -->
+          <li class="hidden-menu"><a href="#">브라 & 레깅스 이벤트</a></li>
+          <li class="hidden-menu"><a href="#">SNKR</a></li>
+          <li class="hidden-menu"><a href="#">BRAND</a></li>
+
+          <!-- 주메뉴6 MOVE TO ZERO-->
+          <li><a href="#">MOVE TO ZERO</a></li>
+        </ul> <!-- //메인 메뉴 -->
+      </nav>
+
+      <div class="icon-menu">
+        <ul>
+          <!-- pc에서는 메뉴아이콘 안보임, 모바일,태블릿에서는 즐겨찾기아이콘 안보임 -->
+          <li><a href="#"><img src="images/search.svg" alt="찾기아이콘"></a></li>
+          <li class="heart-btn"><a href="#"><img src="images/heart.svg" alt="즐겨찾기아이콘"></a></li>
+          <li><a href="#"><img src="images/shopping-bag.svg" alt="장바구니아이콘"></a></li>
+          <li class="menu-btn"><a href="#"><img src="images/menu.svg" alt="메뉴아이콘"></a></li>
+        </ul>
+      </div> <!-- //아이콘메뉴 -->
+    </header> <!-- //헤더 -->
+
+    <!-- 서브 메뉴 배경 -->
+    <div class="sub-bg"></div>
+
+    <!-- 메인 섹션 -->
+    <section>
+      <article class="main-visual">
+        <div class="main-img main-01">
+          <img src="images/M-01.png" alt="크레이터 임펙트 이미지">
+        </div>
+        <div class="main-text">
+          <h2 class="title-01">크레이터 임펙트</h2>
+          <p class="title-01-text">더 가벼워진 탄소 발자국에 볼드한 이미지까지 더한 나이키 크레이터 임펙트-<br>나이키 멤버가 되어 가장 먼저 만나보세요</p>
+          <p class="title-01-text">제로 탄소와 제로 폐기물을 목표로 미래를 보호하기 위한<br>나이키의 여정과 멤버만을 위한 특별한 혜택도 확인해보세요</p>
+          <div class="btn-area">
+            <a href="#" class="btn-01">구매하기</a>
+            <a href="#" class="btn-01">자세히보기</a>
+          </div>
+        </div>
+      </article> <!-- //article 메인 비쥬얼1 -->
+
+      <article class="main-visual">
+        <div class="main-img main-02">
+          <img src="images/M-02.png" alt="나이키 에어 베이퍼맥스 이미지">
+        </div>
+        <div class="main-text">
+          <h2 class="title-01">나이키 에어 베이퍼맥스 EVO</h2>
+          <p class="title-01-text">클래식한 에어맥스 시리즈를 리믹스하여<br>더욱 볼드해진 나이키 에어 베이퍼맥스 EVO를 만나보세요</p>
+        </div>
+        <div class="btn-area">
+          <a href="#" class="btn-01">구매하기</a>
+        </div>
+      </article>
+      <!-- //article 메인 비쥬얼2 -->
+
+      <article class="main-visual">
+        <div class="main-img main-03">
+          <img src="images/M-03.png" alt="나이키 에어맥스 비바 이미지">
+        </div>
+        <div class="main-text">
+          <h2 class="title-01">나이키 에어맥스 비바</h2>
+          <p class="title-01-text">맥스 에어 유닛과 아이코닉한 디자인의 비바와 함께<br>시선을 압도하는 세련된 스타일을 연출해보세요</p>
+        </div>
+        <div class="btn-area">
+          <a href="#" class="btn-01">구매하기</a>
+        </div>
+      </article>
+      <!-- //article 메인 비쥬얼3 -->
+
+      <article class="content">
+        <h3 class="content-title">이번주 스타일링</h3>
+        <div class="content-img-wrap">
+          <div class="content-img">
+            <div class="main-img">
+              <img src="images/style-01.png" alt="스프링키즈재킷남아">
+            </div>
+            <div class="main-img">
+              <img src="images/style-02.png" alt="스프링키즈재킷">
+            </div>
+            <div class="main-img">
+              <img src="images/style-03.png" alt="스프링키즈재킷">
+            </div>
+          </div>
+        </div>  <!-- //article 컨텐츠1-이미지 -->
+        <div class="main-text">
+          <h2 class="title-01">스프링 키즈 재킷 스타일</h2>
+          <p class="title-01-text">봄 시즌을 위한 키즈 재킷 제품과 함께 산뜻한 스타일을 완성해보세요</p>
+        </div>  <!-- //article 컨텐츠1-글 -->
+        <div class="btn-area">
+          <a href="#" class="btn-01">구매하기</a>
+          <a href="#" class="btn-01">더 많은 스타일링 보기</a>
+        </div> <!-- //article 컨텐츠1-버튼 -->
+      </article>  <!-- //article 컨텐츠1 -->
+
+      <article class="content">
+        <h3 class="content-title">Trending Now</h3>
+        <div class="content-img trend">
+          <div class="trend-img">
+            <img src="images/trend-01.png" alt="trend">
+            <div class="main-text trend-text">
+              <h3 class="content-title c-white">월드투어 컬렉션</h3>
+              <div class="btn-area">
+                <a href="#" class="btn-01 b-white">구매하기</a>
+              </div>
+            </div>
+          </div>
+          <div class="trend-img">
+            <img src="images/trend-02.png" alt="trend">
+            <div class="main-text trend-text">
+              <h3 class="content-title c-white">에어조틱 컬렉션</h3>
+              <div class="btn-area">
+                <a href="#" class="btn-01 b-white">구매하기</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article> <!-- //article 컨텐츠2 -->
+
+      <article class="content swiper-slide">
+        <h3 class="content-title">Featured Shoes</h3>
+        <!-- Swiper slide -->
+        <div class="swiper-container Featured-slide">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a href="#">
+                <img src="images/shoes-01.png" alt="shoes-01">
+                <h4 class="featured-title">나이키 데이브레이크</h4>
+                <p class="featured-text">여성신발 라이프스타일<br>179,000원</p>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#">
+                <img src="images/shoes-02.png" alt="shoes-02">
+                <h4 class="featured-title">나이키 에어맥스 97</h4>
+                <p class="featured-text">남성신발 라이프스타일<br>199,000원</p>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#">
+                <img src="images/shoes-03.png" alt="shoes-03">
+                <h4 class="featured-title">나이키 코드 레거시</h4>
+                <p class="featured-text">여성 뮬<br>69,000원</p>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#">
+                <img src="images/shoes-04.png" alt="shoes-04">
+                <h4 class="featured-title">나이키 리액트 인피니티 런 플라이니트 2</h4>
+                <p class="featured-text">여성신발 러닝<br>179,000원</p>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#">
+                <img src="images/shoes-05.png" alt="shoes-05">
+                <h4 class="featured-title">나이키 코믹스 유니티</h4>
+                <p class="featured-text"></p>성인공용 신발 농구<br>179,000원</p>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#">
+                <img src="images/shoes-06.png" alt="shoes-06">
+                <h4 class="featured-title">나이키 에어 줌 빅토리 투어 2</h4>
+                <p class="featured-text">성인공용 신발 골푸<br>239,000원</p>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#">
+                <img src="images/shoes-07.png" alt="shoes-07">
+                <h4 class="featured-title">나이키 에어 줌 슈퍼렙 2</h4>
+                <p class="featured-text">남성 신발 트레이닝<br>139,000원</p>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#">
+                <img src="images/shoes-08.png" alt="shoes-08">
+                <h4 class="featured-title">나이키 머큐리얼 드림 스피드 슈퍼플라이</h4>
+                <p class="featured-text">성인공용 신발 축구<br>329,000원</p>
+              </a>
+            </div>
+          </div>
+        </div>  <!-- //스와이퍼 이미지, 설명들 -->
+        <!-- 좌우버튼, 페이지 -->
+        <div class="featured-control">
+          <div class="swiper-pagination f-pager"></div>
+          <div class="swiper-button-prev f-prev"></div>
+          <div class="swiper-button-next f-next"></div>
+        </div><!-- //좌우버튼, 페이지 -->
+      </article> <!-- //article 컨텐츠3 스와이퍼 -->
+    </section> <!-- //메인섹션 -->
+  </div>
+  <!-- //메인 영역 -->
+
+  <footer>
+    <div class="f-top">
+      <ul class="f-mobile">
+        <!-- f-mobile: 모바일에서만 보이는 푸터 -->
+        <li><a href="#">주문배송</a></li>
+        <li><a href="#">매장안내</a></li>
+        <li><a href="#">고객센터</a></li>
+      </ul>
+      <ul class="f-menu">
+        <!-- f-menu: PC에서 보이는 푸터 -->
+        <li><a href="#">매장안내</a></li>
+        <li><a href="#">나이키 트레이닝 가이드</a></li>
+        <li><a href="#">로그인</a></li>
+        <li><a href="#">멤버가입</a></li>
+      </ul>
+      <ul class="f-menu">
+        <li><a href="#">고객센터</a></li>
+        <ul class="f-sub">
+          <li><a href="#">080-022-0182</a></li>
+          <li><a href="#">주문결제</a></li>
+          <li><a href="#">배송</a></li>
+          <li><a href="#">주문배송조회</a></li>
+          <li><a href="#">멤버쉽 혜택/서비스</a></li>
+          <li><a href="#">1:1 채팅 문의</a></li>
+          <li><a href="#">1:1 이메일 문의</a></li>
+          <li><a href="#">이용약관</a></li>
+          <li><a href="#">개인정보처리방침</a></li>
+        </ul>
+      </ul>
+      <ul class="f-menu">
+        <li><a href="#">ABOUT NIKE</a></li>
+        <ul class="f-sub">
+          <li><a href="#">나이키에 대하여</a></li>
+        </ul>
+      </ul>
+      <ul class="f-menu social">
+        <li><a href="#">SOCIAL</a></li>
+        <ul class="f-sub">
+          <!-- xeicon cdn으로 이모티콘을 가져옴 -->
+          <li><a href="#"><i class="xi-twitter"></i></a></li>
+          <li><a href="#"><i class="xi-facebook"></i></a></li>
+          <li><a href=""><i class="xi-youtube"></i></a></li>
+          <li><a href="#"><i class="xi-instagram"></i></a></li>
+        </ul>
+      </ul>
+    </div>
+
+    <div class="f-line"></div>
+      <!-- 선 긋는 용도 -->
+
+    <div class="f-bottom">
+      <ul>
+        <li><a href="#">이용약관</a></li>
+        <li><a href="#">개인정보처리방침</a></li>
+      </ul>
+      <div class="f-info">
+        <p>(유)나이키코리아 대표 KIM MYUNG HEE<br>
+          서울 강남구 테헤란로 152 강남파이낸스센터 31층<br>
+          통신판매업신고번호 2011-서울강남-03461<br>
+          등록번호 220-88-09068 사업자정보확인<br>
+          고객센터 전화문의080-022-0182<br>
+          FAX 02-7644-5880 E-mail service@nike.co.kr<br>
+          호스팅서비스사업자 브리즈
+        </p>
+        <div class="inipay">
+          <p>안전거래를 위해 현금 등으로 결제시 저희 쇼핑몰에서 가입한<br>
+            KG 이니시스의 구매안전 서비스(채무지급보증)를 이용하실 수 있습니다.</p>
+          <p>온라인디지털콘텐츠사업발전법에 의한
+            <a href="#">콘텐츠보호안내 자세히보기</a>
+            <img src="images/inipay.png" alt="inipay">
+          </p>
+        </div>
+      </div>
+      <p><i class="xi-maker"></i>대한민국 &copy; 2021 Nike, Inc. All Rights Reserved</p>
+    </div>
+  </footer>
+</body>
+</html>
